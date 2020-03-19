@@ -1,0 +1,20 @@
+[inicializa_lista_paco]
+Class="Function"
+Prototype="int inicializa_lista_paco(struct lPaco *plp);"
+
+[inicializa_nodo_struct_paco]
+Class="Function"
+Prototype="int inicializa_nodo_struct_paco(struct structPaco **pnlp);"
+
+[inserta_nodo_lista_paco]
+Class="Function"
+Prototype="int inserta_nodo_lista_paco(struct lPaco *pl, struct structPaco *pn, enum lugarInsercionLP li);"
+
+[elimina_nodos_lista_paco]
+Class="Function"
+Prototype="int elimina_nodos_lista_paco(struct lPaco *pLista);"
+
+[copia_cadena_de_lista_paco]
+Class="Function"
+Prototype="int copia_cadena_de_lista_paco(struct lPaco *pLista, int Numero, char *Cadena);"
+

@@ -1,0 +1,224 @@
+[pcom_abre_puerto_serie]
+Class="Function"
+Prototype="int pcom_abre_puerto_serie();"
+
+[guarda_puerto_com_en_fichero]
+Class="Function"
+Prototype="int guarda_puerto_com_en_fichero();"
+
+[lee_puerto_com_de_fichero]
+Class="Function"
+Prototype="int lee_puerto_com_de_fichero();"
+
+[abre_puerto_desde_fichero]
+Class="Function"
+Prototype="int abre_puerto_desde_fichero();"
+
+[buscar_puertos_serie]
+Class="Function"
+Prototype="int buscar_puertos_serie(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[seleciona_un_puerto_de_la_lista]
+Class="Function"
+Prototype="int seleciona_un_puerto_de_la_lista(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[hacer_lista_de_puertos_del_sistema]
+Class="Function"
+Prototype="int hacer_lista_de_puertos_del_sistema();"
+
+[panel_configuracion]
+Class="Function"
+Prototype="int panel_configuracion(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[cambiar_de_modo]
+Class="Function"
+Prototype="int cambiar_de_modo(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[cambia_de_modo_controles_de_configuracion]
+Class="Function"
+Prototype="void cambia_de_modo_controles_de_configuracion();"
+
+[cambia_de_modo_controles_de_mensajes]
+Class="Function"
+Prototype="void cambia_de_modo_controles_de_mensajes();"
+
+[pcom_modo_pcom]
+Class="Function"
+Prototype="int pcom_modo_pcom(short ModoNuevo);"
+
+[aplicar_retardo_timeout]
+Class="Function"
+Prototype="int aplicar_retardo_timeout(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[AplicarConfigCallback]
+Class="Function"
+Prototype="int AplicarConfigCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CerrarPuertoCallback]
+Class="Function"
+Prototype="int CerrarPuertoCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[abre_cierra_com]
+Class="Function"
+Prototype="int abre_cierra_com(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[enviar_comando]
+Class="Function"
+Prototype="int enviar_comando(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[pcom_recepcion_automatica]
+Class="Function"
+Prototype="int pcom_recepcion_automatica(int activar);"
+
+[pcom_puerto_abierto]
+Class="Function"
+Prototype="int pcom_puerto_abierto();"
+
+[configuracion]
+Class="Function"
+Prototype="void configuracion(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[Estatus]
+Class="Function"
+Prototype="void Estatus(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[opc_scpi]
+Class="Function"
+Prototype="void opc_scpi(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[error_scpi]
+Class="Function"
+Prototype="void error_scpi(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[version_scpi]
+Class="Function"
+Prototype="void version_scpi(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[cls_scpi]
+Class="Function"
+Prototype="void cls_scpi(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[cierra_panel_status]
+Class="Function"
+Prototype="int cierra_panel_status(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[panel_mensajes]
+Class="Function"
+Prototype="int panel_mensajes(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LimpiarRecibir]
+Class="Function"
+Prototype="int LimpiarRecibir(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LimpiarEnviar]
+Class="Function"
+Prototype="int LimpiarEnviar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[carga_panel_de_mensajes]
+Class="Function"
+Prototype="int carga_panel_de_mensajes();"
+
+[pcom_muestra_el_panel_de_mensajes]
+Class="Function"
+Prototype="void pcom_muestra_el_panel_de_mensajes(int Top, int Left);"
+
+[carga_panel_de_configuracion]
+Class="Function"
+Prototype="int carga_panel_de_configuracion();"
+
+[pcom_muestra_el_panel_de_configuracion]
+Class="Function"
+Prototype="void pcom_muestra_el_panel_de_configuracion(int ModoPanel, int Top, int Left);"
+
+[descarga_paneles_del_puerto_com]
+Class="Function"
+Prototype="void descarga_paneles_del_puerto_com();"
+
+[lee_parametros_com_del_panel]
+Class="Function"
+Prototype="void lee_parametros_com_del_panel();"
+
+[establece_parametros_com_en_panel]
+Class="Function"
+Prototype="void establece_parametros_com_en_panel();"
+
+[com_flag_dato_recibido]
+Class="Function"
+Prototype="short com_flag_dato_recibido();"
+
+[display_error_RS232]
+Class="Function"
+Prototype="void display_error_RS232();"
+
+[com_longitud_cola_entrada]
+Class="Function"
+Prototype="int com_longitud_cola_entrada(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[com_longitud_cola_salida]
+Class="Function"
+Prototype="int com_longitud_cola_salida(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[com_borra_cola_entrada]
+Class="Function"
+Prototype="int com_borra_cola_entrada(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[com_borra_cola_salida]
+Class="Function"
+Prototype="int com_borra_cola_salida(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[com_muestra_status]
+Class="Function"
+Prototype="int com_muestra_status(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[com_muestra_error]
+Class="Function"
+Prototype="int com_muestra_error(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[muestra_mensaje_status]
+Class="Function"
+Prototype="void muestra_mensaje_status(com_status);"
+
+[identifica_al_sistema]
+Class="Function"
+Prototype="int identifica_al_sistema();"
+
+[pcom_limpia_pila_errores]
+Class="Function"
+Prototype="void pcom_limpia_pila_errores();"
+
+[led_color]
+Class="Function"
+Prototype="void led_color(enum enumColor ColorNuevo);"
+
+[leer_buffer_entrada]
+Class="Function"
+Prototype="int leer_buffer_entrada(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[pcom_cierra_puerto_serie]
+Class="Function"
+Prototype="void pcom_cierra_puerto_serie();"
+
+[pcom_enviar_datos]
+Class="Function"
+Prototype="int pcom_enviar_datos(char *CadenaEnviar, int Mostrar);"
+
+[pcom_recibir_datos]
+Class="Function"
+Prototype="int pcom_recibir_datos(char *CadenaRecibida, short Mostrar);"
+
+[terminador_detectado_en_buffer_de_entrada]
+Class="Function"
+Prototype="void terminador_detectado_en_buffer_de_entrada(int portNo, int eventMask, void *callbackData);"
+
+[abrir_puerto]
+Class="Function"
+Prototype="int abrir_puerto(int PCOM, const char *Nombre, int Vel, int Par, int Bits, int Stop, int ColEn, int ColSal);"
+
+[cerrar_puerto]
+Class="Function"
+Prototype="int cerrar_puerto(int PCOM);"
+
+[autor]
+Class="Function"
+Prototype="void autor(int menuBar, int menuItem, void *callbackData, int panel);"
+

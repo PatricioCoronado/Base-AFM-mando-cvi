@@ -128,6 +128,8 @@ extern float Retardo;		// Tiempo de retardo entre envío y recepción Delay(Retard
 				pcom_enviar_datos(CadenaComando,MOSTRAR_O_NO);		   \
 				Delay (Retardo);								   \
 			}
+#define ERROR 	sprintf(CadenaComando,"%s","ERR?");\
+				pcom_enviar_datos(CadenaComando,1);		   
 /**************************************************************************************
 							FUNCIONES PUBLICAS
 ***************************************************************************************/

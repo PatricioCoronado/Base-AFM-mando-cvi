@@ -1498,7 +1498,7 @@ int pcom_enviar_datos (char CadenaEnviar[], int Mostrar)  {
     	switch (TerminadorTransmision)                                                                                          
     	{                                                                                                                       
     	case 1:                                                                                                                 
-       		strcat(CadenaEnviar, "\r");                                                                                         
+       		  strcat(CadenaEnviar, "\r");                                                                                         
        		break;                                                                                                              
     	case 2:                                                                                                                 
        		strcat(CadenaEnviar, "\n");                                                                                         

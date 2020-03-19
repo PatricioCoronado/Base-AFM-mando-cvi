@@ -1,0 +1,28 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[tecla]
+Class="Function"
+Prototype="int tecla(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[desactiva_todas_las_teclas]
+Class="Function"
+Prototype="void desactiva_todas_las_teclas(int cntrl, int est);"
+
+[estado_del_sistema]
+Class="Function"
+Prototype="int estado_del_sistema(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[pcom_datos_recibidos]
+Class="Function"
+Prototype="void pcom_datos_recibidos();"
+
+[modo_continuo]
+Class="Function"
+Prototype="int modo_continuo(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[recibir_estado]
+Class="Function"
+Prototype="int recibir_estado(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
